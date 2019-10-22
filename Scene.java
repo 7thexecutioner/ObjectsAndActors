@@ -45,7 +45,7 @@ public abstract class Scene {
 				view.render(s);
 			}
 			try {
-				Thread.sleep(View.delT/2);
+				Thread.sleep(View.delT);
 			} catch (InterruptedException e) {	
 				e.printStackTrace();
 			}
